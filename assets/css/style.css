@@ -14,7 +14,7 @@ body {
 }
 
 /* Set layout, font, and background color for the header */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -23,7 +23,7 @@ body {
 /* Set color and size for the heading */
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 50px;
 }
 
 .header h1 .seo {
@@ -55,10 +55,8 @@ a {
 
 /* Set layout properties for the banner */
 .hero {
-    height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -81,7 +79,7 @@ a {
 /* Set layout and font size for the main content headings*/
 .card h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 /* Set positioning for the main content images */
@@ -99,8 +97,6 @@ a {
 .card img {
     max-height: 200px;
 }
-
-
 
 /* Set sidebar layout and styling*/
 .benefits {
@@ -122,6 +118,7 @@ a {
 .box h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 25px;
 }
 
 /* Set layout for sidebar icons */
@@ -141,6 +138,6 @@ a {
 }
 
 /* Set font size for footer */
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
