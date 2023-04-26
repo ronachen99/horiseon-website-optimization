@@ -1,12 +1,11 @@
-/*Universal Selector: applies to all elements*/
+/* Set layout properties for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
-/*Body Selector: applies to body element*/
+/* Set background color and font properties for the body */
 body {
     background-color: #d9dcd6;
     font-size: 16px;
@@ -14,14 +13,14 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-/*Header*/
+/* Set layout, font, and background color for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
+/* Set color and size for the heading */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -31,8 +30,7 @@ body {
     color: #d9dcd6;
 }
 
-
-/*Navigation Bar*/
+/* Set layout properties for the navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,6 +38,7 @@ body {
     font-size: 20px;
 }
 
+/* Set styling for the navigation menu */
 .header nav ul {
     list-style-type: none;
 }
@@ -54,8 +53,7 @@ a {
     text-decoration: none;
 }
 
-
-/*Hero Banner*/
+/* Set layout properties for the banner */
 .hero {
     height: 800px;
     width: 100%;
@@ -65,8 +63,28 @@ a {
     background-position: center;
 }
 
+/* Set layout for the main content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
-/*Main Content*/
+/* Set margin and padding properties around the main contents */
+.card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+/* Set layout and font size for the main content headings*/
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set positioning for the main content images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -77,30 +95,14 @@ a {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.card {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-}
-
+/* Set height for the main content images */
 .card img {
     max-height: 200px;
 }
 
-.card h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 
-/*Sidebar*/
+/* Set sidebar layout and styling*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -111,23 +113,25 @@ a {
     background-color: #2589bd;
 }
 
+/* Set margin for sidebar to separate each named benefit into its box*/
 .box {
     margin-bottom: 32px;
 }
 
+/* Set layout for sidebar headings*/
 .box h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Set layout for sidebar icons */
 .box img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-/*Footer*/
+/* Set layout and font properties for the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -136,6 +140,7 @@ a {
     color: black;
 }
 
+/* Set font size for footer */
 .footer h2 {
     font-size: 20px;
 }
