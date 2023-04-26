@@ -1,4 +1,4 @@
-# Webpage Optimization for the Marketing Site: Horiseon - Social Solution Services
+# Webpage Optimization for Horiseon Marketing Site 
 
 ## Description
 
@@ -12,7 +12,7 @@ The purpose of this repository is to perform a website refactor on Horiseon, ens
 
 ## Deployed Webpage
 
-
+https://ronachen99.github.io/horiseon-website-optimization/
 
 ## Installation
 
