@@ -6,9 +6,7 @@ The purpose of this repository is to perform a website refactor on Horiseon, ens
 
 ## Visuals
 ![A screenshot of the website title.](./assets/images/4.png)
-![The first Horiseon webpage screenshot showing the heading, a navigation bar, and the header image.](./assets/images/1.png)
-![The second Horiseon webpage screenshot showing parts of card contents and sidebar contents.](./assets/images/2.png)
-![The third Horiseon webpage screenshot showing card contents, sidebar contents, and the footer text.](./assets/images/3.png)
+![The Horiseon webpage screenshot showing the heading, a navigation bar, and the header image, contents and a sidebar.](./assets/images/ronachen99.github.io_horiseon-website-optimization_.png)
 
 ## Deployed Webpage
 
