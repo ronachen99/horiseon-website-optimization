@@ -24,19 +24,19 @@ header {
     background-color: #2b7a78;
 }
 
-/* Sets layout, size and color for the heading */
-.header h1 {
+/* Sets layout and size for the heading */
+header h1 {
     display: inline-block;
     font-size: 50px;
 }
 
 /* Sets a different color for "seo" in the heading */
-.header h1 .seo {
+span {
     color: #def2f1;
 }
 
 /* Sets layout properties for the navigation bar */
-.header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -44,13 +44,12 @@ header {
 }
 
 /* Sets layout and styling for the navigation menu */
-.header nav ul {
+ul {
     list-style-type: none;
-    
 }
 
 /* Changes the direction of the navigation listing into row */
-.header nav ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -62,21 +61,21 @@ a {
 }
 
 /* Sets layout properties for the banner */
-.hero {
+figure img {
     width: 100%;
     margin-bottom: 25px;
     background-size:cover;
 }
 
-/* Sets layout for sections in the main element */
-.content {
+/* Sets layout for the main element */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Sets layout and styling for each card or section in the main element */
-.card {
+/* Sets layout and styling for each section in the main element */
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,7 +83,7 @@ a {
 }
 
 /* Sets layout and font size for the main content headings*/
-.card h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 40px;
 }
@@ -102,12 +101,12 @@ a {
 }
 
 /* Sets height for the main content images */
-.card img {
+main img {
     max-height: 200px;
 }
 
 /* Sets layout and styling for the sidebar */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -118,26 +117,26 @@ a {
 }
 
 /* Sets margin for each named benefit */
-.box {
+aside section {
     margin-bottom: 32px;
 }
 
-/* Sets layout for sidebar headings*/
-.box h3 {
+/* Sets layout for the sidebar headings*/
+h3 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 25px;
 }
 
 /* Sets layout for the sidebar icons */
-.box img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Sets layout and font properties for the footer */
-.footer {
+/* Sets layout and font properties in the footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -146,11 +145,11 @@ a {
 }
 
 /* Set footer paragraph to the align in the center */
-.footer p {
+footer p {
     text-align: center;
 }
 
-/* Sets font size for footer */
-.footer h4 {
+/* Sets font size for footer heading */
+h4 {
     font-size: 22px;
 }
