@@ -17,7 +17,7 @@ The purpose of this repository is to perform a website refactor on Horiseon, ens
 
 ### Changes made to the HTML file:
 - Changed the code into semantic elements.
-- Deleted unnecesary classes.
+- Deleted unnecessary classes.
 - Consolidated and organized the codes.
 - Added accessible alt attributes to the banner and images.
 - Changed the title of the website.
@@ -26,7 +26,8 @@ The purpose of this repository is to perform a website refactor on Horiseon, ens
 - Made comments for each section.
 
 ### Changes made to the CSS file:
-- Deleted redundant codes.
+- Combined redundant codes.
+- Deleted unnecessary class selectors.
 - Made comments for each code block.
 - Changed the colour of webpage so it is more visually appealing for the end-users.
 - changed the font size so it is easier to read.
