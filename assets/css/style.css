@@ -13,6 +13,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Changed the text alignment for the body paragraphs */
+body p {
+    text-align: justify;
+}
+
 /* Sets layout and background color for the header */
 header {
     padding: 20px;
@@ -131,7 +136,7 @@ a {
     max-width: 150px;
 }
 
-/* Set layout and font properties for the footer */
+/* Sets layout and font properties for the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -140,7 +145,12 @@ a {
     color: #17252a;
 }
 
-/* Set font size for footer */
+/* Set footer paragraph to the align in the center */
+.footer p {
+    text-align: center;
+}
+
+/* Sets font size for footer */
 .footer h4 {
     font-size: 22px;
 }
