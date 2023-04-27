@@ -1,104 +1,107 @@
-/* Set layout properties for all elements */
+/* Sets layout properties for all elements */
 * {
-    box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0; 
+    box-sizing: border-box;
 }
 
-/* Set background color and font properties for the body */
+/* Sets background color and font properties for the body */
 body {
-    background-color: #d9dcd6;
-    font-size: 16px;
-    color: #ffffff;
+    background-color: #def2f1;
+    color: #feffff;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Set layout, font, and background color for the header */
+/* Sets layout and background color for the header */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #2b7a78;
 }
 
-/* Set color and size for the heading */
+/* Sets layout, size and color for the heading */
 .header h1 {
     display: inline-block;
     font-size: 50px;
 }
 
+/* Sets a different color for "seo" in the heading */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #def2f1;
 }
 
-/* Set layout properties for the navigation bar */
+/* Sets layout properties for the navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-/* Set styling for the navigation menu */
+/* Sets layout and styling for the navigation menu */
 .header nav ul {
     list-style-type: none;
+    
 }
 
+/* Changes the direction of the navigation listing into row */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Changes the color of the navigation menu */
 a {
-    color: #ffffff;
+    color: #def2f1;
     text-decoration: none;
 }
 
-/* Set layout properties for the banner */
+/* Sets layout properties for the banner */
 .hero {
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
 }
 
-/* Set layout for the main content */
+/* Sets layout for sections in the main element */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Set margin and padding properties around the main contents */
+/* Sets layout and styling for each card or section in the main element */
 .card {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color: #0072bb;
+    background-color: #2b7a78;
 }
 
-/* Set layout and font size for the main content headings*/
+/* Sets layout and font size for the main content headings*/
 .card h2 {
     margin-bottom: 20px;
     font-size: 40px;
 }
 
-/* Set positioning for the main content images */
+/* Sets image positioning to the left in the main element */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Sets image positioning to the right in the main element */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Set height for the main content images */
+/* Sets height for the main content images */
 .card img {
     max-height: 200px;
 }
 
-/* Set sidebar layout and styling*/
+/* Sets layout and styling for the sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,22 +109,22 @@ a {
     float: right;
     width: 20%;
     height: 100%;
-    background-color: #2589bd;
+    background-color: #3aafa9;
 }
 
-/* Set margin for sidebar to separate each named benefit into its box*/
+/* Sets margin for each named benefit */
 .box {
     margin-bottom: 32px;
 }
 
-/* Set layout for sidebar headings*/
+/* Sets layout for sidebar headings*/
 .box h3 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 25px;
 }
 
-/* Set layout for sidebar icons */
+/* Sets layout for the sidebar icons */
 .box img {
     display: block;
     margin: 10px auto;
@@ -134,10 +137,10 @@ a {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: black;
+    color: #17252a;
 }
 
 /* Set font size for footer */
 .footer h4 {
-    font-size: 20px;
+    font-size: 22px;
 }
